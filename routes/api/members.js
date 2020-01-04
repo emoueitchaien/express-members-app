@@ -38,7 +38,7 @@ router.post("/", (req, res) => {
   }
   members.push(newMember);
   // res.json(members);
-  res.redirect("/");
+  res.redirect("/api/members");
 
   //while working with real api we will have real database instead of file and we will do as follow for mongo db
   // members.save(newMember);
